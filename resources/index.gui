@@ -1,0 +1,259 @@
+<svg>
+<svg id="homeScreen" display="none">
+
+  <!-- Black background -->
+  <rect class="full-size" fill="fb-black" />
+
+  <!-- Title and text -->
+  <use href="#mixed-text-center-mid" class="dialog-mixed-text" fill="fb-white">
+    <set href="#top-padding" attributeName="display" to="none" />
+    <set href="#header/text" attributeName="text-buffer" to="Form Guru" />
+    <set href="#header/text" attributeName="fill" to="fb-magenta"/>
+    <set href="#copy/text" attributeName="text-buffer" to="Are you ready to shoot?" />
+    <set href="#bottom-padding" attributeName="display" to="none" />
+  </use>
+
+  <!-- Left button -->
+  <use id="exitButton" class="dialog-half-button-left" href="#square-button-neutral">
+    <set href="#text" attributeName="text-buffer" to="Exit" />
+    <set href="#text" attributeName="text-anchor" to="middle" />
+  </use>
+
+  <!-- Right button -->
+  <use id="goButton" class="dialog-half-button-right" href="#square-button-negative">
+    <set href="#text" attributeName="text-buffer" to="Let's Go" />
+    <set href="#text" attributeName="text-anchor" to="middle" />
+  </use>
+</svg>
+
+<svg id="transScreen" display="none">
+
+  <!-- Black background -->
+  <rect class="full-size" fill="fb-black" />
+
+  <!-- Title and text -->
+  <use href="#mixed-text-center-mid" class="dialog-mixed-text" fill="fb-white">
+    <set href="#top-padding" attributeName="display" to="none" />
+    <set href="#header/text" attributeName="text-buffer" to="" />
+    <set href="#header/text" attributeName="fill" to="fb-magenta"/>
+    <set href="#copy/text" attributeName="text-buffer" to="Calculating..."/>
+    <set href="#bottom-padding" attributeName="display" to="none" />
+  </use>
+</svg>
+<svg id="accuracyScreen" display="none">
+<image x="0" y="0" width="350" height="300" href="basketball-court.jpg" />
+
+
+     <defs>
+    <symbol id="demo">
+      <g id="demogroup">
+        <circle cx="50%" cy="40%" r="80" fill="grey" />
+        
+      </g>
+    </symbol>
+  </defs>
+  <defs>
+    <symbol id="demo1">
+      <g id="demogroup1">
+        <circle cx="50%" cy="40%" r="4" fill="orange" />
+        <animate attributeName="opacity" begin="enable"
+            from="0" to="1" dur="5" final="restore" />
+      </g>
+    </symbol>
+  </defs>
+  
+ 
+  
+    <defs>
+    <symbol id="demo11">
+      <g id="demogroup11">
+        <circle cx="50%" cy="40%" r="44" fill="#FF8C00" />
+        <animate attributeName="opacity" begin="enable"
+            from="0" to="1" dur="6" final="restore" />
+      </g>
+    </symbol>
+  </defs>
+  
+    <defs>
+    <symbol id="demo12">
+      <g id="demogrou12">
+        <circle cx="50%" cy="40%" r="48" fill="#FF8C00" />
+        <animate attributeName="opacity" begin="enable"
+            from="0" to="1" dur="6" final="restore" />
+      </g>
+    </symbol>
+  </defs>
+  
+    <defs>
+    <symbol id="demo13">
+      <g id="demogroup13">
+        <circle cx="50%" cy="40%" r="52" fill="#FF8C00" />
+        <animate attributeName="opacity" begin="enable"
+            from="0" to="1" dur="6" final="restore" />
+      </g>
+    </symbol>
+  </defs>
+  
+    <defs>
+    <symbol id="demo14">
+      <g id="demogroup14">
+        <circle cx="50%" cy="40%" r="56" fill="#FF8C00" />
+        <animate attributeName="opacity" begin="enable"
+            from="0" to="1" dur="6" final="restore" />
+      </g>
+    </symbol>
+  </defs>
+  
+    <defs>
+    <symbol id="demo15">
+      <g id="demogroup15">
+        <circle cx="50%" cy="40%" r="60" fill="#FF8C00" />
+        <animate attributeName="opacity" begin="enable"
+            from="0" to="1" dur="6" final="restore" />
+      </g>
+    </symbol>
+  </defs>
+  
+    <defs>
+    <symbol id="demo16">
+      <g id="demogroup16">
+        <circle cx="50%" cy="40%" r="62" fill="#FF8C00" />
+        <animate attributeName="opacity" begin="enable"
+            from="0" to="1" dur="6" final="restore" />
+      </g>
+    </symbol>
+  </defs>
+  
+    <defs>
+    <symbol id="demo17">
+      <g id="demogroup17">
+        <circle cx="50%" cy="40%" r="64" fill="#FF8C00" />
+        <animate attributeName="opacity" begin="enable"
+            from="0" to="1" dur="6" final="restore" />
+      </g>
+    </symbol>
+  </defs>
+  
+    <defs>
+    <symbol id="demo18">
+      <g id="demogroup18">
+        <circle cx="50%" cy="40%" r="68" fill="#FF8C00" />
+        <animate attributeName="opacity" begin="enable"
+            from="0" to="1" dur="5" final="restore" />
+      </g>
+    </symbol>
+  </defs>
+  
+    <defs>
+    <symbol id="demo19">
+      <g id="demogroup19">
+        <circle cx="50%" cy="40%" r="72" fill="#FF8C00" />
+        <animate attributeName="opacity" begin="enable"
+            from="0" to="1" dur="4" final="restore" />
+      </g>
+    </symbol>
+  </defs>
+  
+    <defs>
+    <symbol id="demo20">
+      <g id="demogroup20">
+        <circle cx="50%" cy="40%" r="76" fill="#FF8C00" />
+        <animate attributeName="opacity" begin="enable"
+            from="0" to="1" dur="3" final="restore" />
+      </g>
+    </symbol>
+  </defs>
+  
+      <defs>
+    <symbol id="demo21">
+      <g id="demogroup21">
+        <circle cx="50%" cy="40%" r="80" fill="#FF8C00" />
+        <animate attributeName="opacity" begin="enable"
+            from="0" to="1" dur="3" final="restore" />
+      </g>
+    </symbol>
+  </defs>
+  
+
+
+   
+    <use id="demoinstance" href="#demo" width="100%" height="100%" />
+
+  
+  
+  
+     
+    <use id="demoinstance11" href="#demo11" width="100%" height="100%" />
+  
+  
+      
+    <use id="demoinstance12" href="#demo12" width="100%" height="100%" />
+  
+  
+      
+    <use id="demoinstance13" href="#demo13" width="100%" height="100%" />
+  
+  
+
+    <use id="demoinstance14" href="#demo14" width="100%" height="100%" />
+ 
+  
+
+    <use id="demoinstance15" href="#demo15" width="100%" height="100%" />
+  
+  
+     
+    <use id="demoinstance16" href="#demo16" width="100%" height="100%" />
+
+  
+  
+    <use id="demoinstance17" href="#demo17" width="100%" height="100%" />
+
+  
+     
+    <use id="demoinstance18" href="#demo18" width="100%" height="100%" />
+
+  
+    <use id="demoinstance19" href="#demo19" width="100%" height="100%" />
+  
+  
+    <use id="demoinstance20" href="#demo20" width="100%" height="100%" />
+
+  
+      
+    <use id="demoinstance21" href="#demo21" width="100%" height="100%" />
+
+  
+
+  
+  
+  <use id="mixedtext" href="#mixed-text-left-bottom" height="105%" fill="fb-white">
+    <set href="#header/text" attributeName="text-buffer" to="Header Tdddext"/>
+     </use>
+  
+   <use id="mixedtext1" href="#mixed-text-center-bottom" height="63%" fill="fb-green">
+    <set href="#header/text" attributeName="text-buffer" to="Header dddText"/>
+     </use>
+  
+  <use id="mixedtext2" href="#mixed-text-center-bottom" height="47%" fill="fb-green">
+    <set href="#header/text" attributeName="text-buffer" to="Copy Toooo"  />
+     </use>
+  
+    <use id="marquee" href="#marquee-text" font-size="24" y="50%-22" width="100%"
+    height="100" fill="white" mode="1" value="40">
+    <rect width="60%" height="40%" fill="black" opacity="0.0" />
+    <set href="group/text" attributeName="text-buffer"
+         to="Lorem ipsum dolor sit amet, consectetur adi." />
+    <set href="group/separator" attributeName="width" to="150" />
+  </use>
+  
+    <use id="homeButton" href="#combo-button-lower-right" fill="orange">
+    
+      <set href="combo-button-icon" attributeName="href" to="btn_combo_play_p.png"/>
+    
+    <set href="combo-button-stroke" attributeName="display" to="inline"/>
+  </use>
+  
+</svg>
+</svg>
+
